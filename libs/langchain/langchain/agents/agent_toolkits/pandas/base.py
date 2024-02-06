@@ -278,7 +278,7 @@ def create_pandas_dataframe_agent(
     return_intermediate_steps: bool = False,
     max_iterations: Optional[int] = 15,
     max_execution_time: Optional[float] = None,
-    early_stopping_method: str = "None",
+    early_stopping_method: str = "generate",
     agent_executor_kwargs: Optional[Dict[str, Any]] = None,
     include_df_in_prompt: Optional[bool] = True,
     number_of_head_rows: int = 5,
